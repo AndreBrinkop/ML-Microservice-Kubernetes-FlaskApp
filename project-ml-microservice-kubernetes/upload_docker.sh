@@ -5,11 +5,15 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerimage=sklearnflaskapp
+dockerpath=abrinkop/$dockerimage
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
+docker tag $dockerimage:latest $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
