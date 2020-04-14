@@ -19,6 +19,7 @@ kubectl get pods
 
 # Wait until pod is ready
 kubectl wait --for=condition=Ready pod/$pod_name
+kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
