@@ -1,1 +1,8 @@
-<paste log output from Kubernetes-mediated prediction, here>
+deployment.apps/sklearnflaskapp created
+Name of the Pod: sklearnflaskapp-74f4c955f8-47xz8
+NAME                               READY   STATUS              RESTARTS   AGE
+sklearnflaskapp-74f4c955f8-47xz8   0/1     ContainerCreating   0          0s
+pod/sklearnflaskapp-74f4c955f8-47xz8 condition met
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
