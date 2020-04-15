@@ -8,6 +8,17 @@ This API is using a pre-trained, `sklearn` model that has been trained to predic
 
 ---
 
+## Repository Content
+
+* `app.py` contains the code for the Python flask app
+* `requirements.txt` contains a list of Python dependencies needed for the Python flask app
+* `make_prediction.sh` runs a prediction using the operationalized API
+* `run_docker.sh` builds a docker image for the Python flask app and runs it
+* `upload_docker.sh` tags and uploads the created docker image to Docker Hub
+* `run_kubernetes.sh` fetches the docker image from Docker Hub and runs it with Kubernetes
+
+---
+
 ## Setup the Environment
 
 * Create a virtualenv and activate it
@@ -17,4 +28,4 @@ This API is using a pre-trained, `sklearn` model that has been trained to predic
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+3. Run in Kubernetes (using image from Docker Hub):  `./run_kubernetes.sh`
