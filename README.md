@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/AndreBrinkop/ML-Microservice-Kubernetes-FlaskApp.svg?style=svg)](https://circleci.com/gh/AndreBrinkop/ML-Microservice-Kubernetes-FlaskApp)
+[![CircleCI](https://circleci.com/gh/AndreBrinkop/SklearnMicroserviceFlaskApp.svg?style=svg)](https://circleci.com/gh/AndreBrinkop/SklearnMicroserviceFlaskApp)
 
 ## Project Overview
 This project will contain all the necessary files and scripts to operationalize a Machine Learning Microservice API. The operationalized API is a Python flask app that serves out predictions (inference) about housing prices through API calls.\
